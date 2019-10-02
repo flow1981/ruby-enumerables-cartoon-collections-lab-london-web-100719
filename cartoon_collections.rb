@@ -33,7 +33,7 @@ def find_the_cheese(array_of_strings)
     cheese_types.each do |cheese|  
       if string.include?(cheese)
         output << string 
-        puts output
+        return output
       end
     end
   end
