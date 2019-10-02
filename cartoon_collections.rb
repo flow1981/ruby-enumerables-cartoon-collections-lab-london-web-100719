@@ -32,10 +32,8 @@ def find_the_cheese(array_of_strings)
       if string.include?(cheese)
         output << string;
         return output;
-      else
-        output= nil;
       end
     end
   end
-  output
+  nil
 end
