@@ -18,7 +18,6 @@ def find_the_cheese(array_of_strings)
   
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  
   #check for each element of array_of_strings 
   #each method on array_of_strings to go through elements
   #if it includes any of the cheese of the list
@@ -26,15 +25,14 @@ def find_the_cheese(array_of_strings)
   #and returns for match
   #>writes to output files with >> if TRUE
  
-  
-  output=nil
+  output=[]
   
   array_of_strings.each do |string| 
     cheese_types.each do |cheese|  
       if string.include?(cheese)
-        output=[]
-        output << string 
-        return output[0]
+        return string
+      else
+        return nil
       end
     end
   end
