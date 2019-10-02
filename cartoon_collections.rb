@@ -10,7 +10,7 @@ end
 
 def long_planeteer_calls(array_calls)
   output=[]
-  output=array_calls.reduce{|call| call.length>4? false:true}
+  output=array_calls.reduce{|call| call.length>4? true:false}
   
 end
 
