@@ -27,13 +27,13 @@ def find_the_cheese(array_of_strings)
   #>writes to output files with >> if TRUE
  
   
-  output=nil
+  output=[]
   
   array_of_strings.each do |string| 
     cheese_types.each do |cheese|  
       if string.include?(cheese)
         output << string 
-        return output
+        return output[0]
       end
     end
   end
