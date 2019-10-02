@@ -33,7 +33,7 @@ def find_the_cheese(array_of_strings)
         output << string;
         return output;
       else
-        return nil;
+        #return nil;
       end
     end
   end
