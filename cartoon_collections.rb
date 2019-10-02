@@ -17,12 +17,16 @@ end
 def find_the_cheese(array_of_strings)
   
   cheese_types = ["cheddar", "gouda", "camembert"]
-  
+  output=[]
   #check for each element of array_of_strings 
-  #if it includes a cheese of the list
+  array_of_strings.each(|string| cheese_types.each {|cheese| if string.includes?(cheese)} >> output)
+  
+  #if it includes any of the cheese of the list
+  
+  
   #and returns for match
  
- array_of_strings.each(|string| )
+ 
  
 
 end
