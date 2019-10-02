@@ -27,7 +27,7 @@ def find_the_cheese(array_of_strings)
   #>writes to output files with >> if TRUE
  
   
-  output=[]
+  output=nil
   
   array_of_strings.each do |string| 
     cheese_types.each do |cheese|  
