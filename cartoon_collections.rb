@@ -22,6 +22,7 @@ def find_the_cheese(array_of_strings)
   #if it includes a cheese of the list
   #and returns for match
  
+ array_of_strings.each(|string| )
  
 
 end
