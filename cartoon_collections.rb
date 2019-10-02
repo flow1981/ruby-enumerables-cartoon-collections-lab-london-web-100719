@@ -20,17 +20,16 @@ def find_the_cheese(array_of_strings)
   
   
   #check for each element of array_of_strings 
+  each method on array_of_strings to go through elements
   #if it includes any of the cheese of the list
+  #> each method on string to go through cheese, compare with include?
   #and returns for match
-  
+  #>writes to output files with >> if TRUE
  
   
   output=[]
   
   array_of_strings.each(|string| cheese_types.each {|cheese| if string.includes?(cheese)} >> output)
   
-
- 
- 
 
 end
