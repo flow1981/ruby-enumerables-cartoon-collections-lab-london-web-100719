@@ -25,8 +25,6 @@ def find_the_cheese(array_of_strings)
   #and returns for match
   #>writes to output files with >> if TRUE
  
-  output=[]
-  
   array_of_strings.each do |string| 
     cheese_types.each do |cheese|  
       if string.include?(cheese)
@@ -36,5 +34,4 @@ def find_the_cheese(array_of_strings)
       end
     end
   end
-  output
 end
